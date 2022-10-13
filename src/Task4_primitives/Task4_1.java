@@ -1,3 +1,5 @@
+package Task4_primitives;
+
 import java.util.Scanner;
 
 public class Task4_1 {

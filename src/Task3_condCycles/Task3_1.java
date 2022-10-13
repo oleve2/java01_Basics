@@ -1,3 +1,5 @@
+package Task3_condCycles;
+
 import java.util.Scanner;
 
 public class Task3_1 {

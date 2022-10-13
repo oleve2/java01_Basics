@@ -1,3 +1,5 @@
+package Task1;
+
 public class Task1_2 {
     public static void main(String[] args) {
         int value1 = 30;

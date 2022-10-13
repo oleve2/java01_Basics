@@ -1,3 +1,5 @@
+package Task2_struct;
+
 import java.util.Scanner;
 
 public class Task2_2 {
