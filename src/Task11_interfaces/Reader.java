@@ -1,8 +1,6 @@
 package Task11_interfaces;
 
-import Task11_interfaces.Interf.IReader;
-
-public class Reader extends User implements IReader {
+public class Reader extends User implements Task11_interfaces.Interf.Reader {
     public Reader(String role, String name) {
         super(role, name);
     }

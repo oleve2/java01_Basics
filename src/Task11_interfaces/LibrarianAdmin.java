@@ -1,9 +1,9 @@
 package Task11_interfaces;
 
-import Task11_interfaces.Interf.IAdministrator;
-import Task11_interfaces.Interf.ILibrarian;
+import Task11_interfaces.Interf.Administrator;
+import Task11_interfaces.Interf.Librarian;
 
-public class LibrarianAdmin extends User implements IAdministrator, ILibrarian {
+public class LibrarianAdmin extends User implements Administrator, Librarian {
 
     public LibrarianAdmin(String role, String name) {
         super(role, name);

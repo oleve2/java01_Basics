@@ -1,9 +1,9 @@
 package Task11_interfaces;
 
-import Task11_interfaces.Interf.IReader;
-import Task11_interfaces.Interf.ISupplier;
+import Task11_interfaces.Interf.Reader;
+import Task11_interfaces.Interf.Supplier;
 
-public class ReaderSupplier extends User implements IReader, ISupplier {
+public class ReaderSupplier extends User implements Reader, Supplier {
     public ReaderSupplier(String role, String name) {
         super(role, name);
     }
